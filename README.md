@@ -1,16 +1,20 @@
-# openai
+Reference document:
 
-A new Flutter project.
+https://pub.aimind.so/step-by-step-guide-to-integrating-openai-api-in-flutter-f85cb0856a9d
 
-## Getting Started
+Packages used:
+dart : http
 
-This project is a starting point for a Flutter application.
+To Run:
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repository
+Create a file named apikey.dart inside lib/services
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Inside apikey.dart-Paste the following and replacre API_KEY with your OpenAI api key
+class ApiKey {
+static const String openAIApiKey = API_KEY;
+}
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pub Get
+Run or Debug
+
